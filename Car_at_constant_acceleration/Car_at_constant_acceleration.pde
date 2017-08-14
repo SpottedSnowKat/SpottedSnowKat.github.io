@@ -99,7 +99,7 @@ void draw()
   text("Velocity", 195, 460);
   
   
-  time = time + 0.05;
+  time = time + 0.01;
   if (time>5.01) {
     noLoop(); 
   }
