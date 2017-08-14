@@ -324,6 +324,7 @@ hr { display: none; }
 #sidebar1 {
 	float: right;
 	width: 250px;
+	margin-top: 20px;
 }
 
 #sidebar1 ul {
