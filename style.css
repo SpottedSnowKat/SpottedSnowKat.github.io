@@ -17,7 +17,7 @@ body {
 	text-align: justify;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	color: #909B78;
+	color: #8D789B;
 }
 
 h1, h2, h3 {
@@ -41,7 +41,7 @@ p, ul, ol {
 }
 
 a {
-	color: #909B78;
+	color: #8D789B;
 }
 
 a:hover {
@@ -98,11 +98,11 @@ hr { display: none; }
 	padding: 70px 0 0 50px;
 	font-size: 40px;
 	font-weight: normal;
-	color: #616B4F;
+	color: #5E4F6B;
 }
 
 #logo h1 a {
-	color: #616B4F;
+	color: #5E4F6B;
 }
 
 #logo h2 {
@@ -111,11 +111,11 @@ hr { display: none; }
 	padding-left: 50px;
 	text-transform: uppercase;
 	font-size: 14px;
-	color: #C6D0B3;
+	color: #C4B3D0;
 }
 
 #logo h2 a {
-	color: #C6D0B3;
+	color: #C4B3D0;
 }
 
 #logo a {
@@ -151,7 +151,7 @@ hr { display: none; }
 	font-size: 14px;
 	font-weight: normal;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #616B4F;
+	color: #5E4F6B;
 }
 
 #menu a:hover {
@@ -186,7 +186,7 @@ hr { display: none; }
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 26px;
 	font-weight: normal;
-	color: #616B4F;
+	color: #5E4F6B;
 }
 
 .post {
@@ -201,7 +201,7 @@ hr { display: none; }
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 26px;
 	font-weight: normal;
-	color: #616B4F;
+	color: #5E4F6B;
 }
 
 .post .meta {
@@ -266,7 +266,7 @@ hr { display: none; }
 	clear: both;
 	background: #96A96F url(images/img03.gif) no-repeat right bottom;
 	padding: 10px 20px 0px 20px;
-	color: #DFE6D1;
+	color: #DBD1E6;
 }
 
 #sidebar ul {
@@ -305,12 +305,12 @@ hr { display: none; }
 }
 
 #sidebar p {
-	color: #DFE6D1;
+	color: #DBD1E6;
 }
 
 #sidebar a {
 	text-decoration: underline;
-	color: #F1F6E8;
+	color: #EFE8F6;
 }
 
 #sidebar a:hover {
@@ -378,11 +378,11 @@ hr { display: none; }
 	padding: 15px;
 	text-align: center;
 	font-size: 11px;
-	color: #909B78;
+	color: #8D789B;
 }
 
 #footer a {
-	color: #909B78;
+	color: #8D789B;
 }
 
 
