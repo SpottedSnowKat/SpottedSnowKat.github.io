@@ -13,7 +13,7 @@ Released for free under the Creative Commons Attribution License
 body {
 	margin: 0;
 	padding: 0;
-	background: #E1F0C4 url(images/img01.jpg) repeat;
+	background: #CCC4F0 url(images/img01.jpg) repeat;
 	text-align: justify;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 11px;
@@ -155,12 +155,12 @@ hr { display: none; }
 }
 
 #menu a:hover {
-	background: #9FAB87;
+	background: #9587AB;
 	color: #FFFFFF;
 }
 
 #menu .current_page_item a {
-	background: #9FAB87;
+	background: #9587AB;
 	color: #FFFFFF;
 }
 
@@ -206,7 +206,7 @@ hr { display: none; }
 
 .post .meta {
 	height: 31px;
-	background: #EAF0DE url(images/img06.jpg) no-repeat right bottom;
+	background: #E5DEF0 url(images/img06.jpg) no-repeat right bottom;
 	text-decoration: none;
 }
 
@@ -246,7 +246,7 @@ hr { display: none; }
 }
 
 #recent-posts .entry {
-	background: #96A96F url(images/img03.gif) no-repeat right bottom;
+	background: #8E6FA9 url(images/img03.gif) no-repeat right bottom;
 	padding: 0px 19px 30px 19px;
 }
 
@@ -264,7 +264,7 @@ hr { display: none; }
 
 #sidebar {
 	clear: both;
-	background: #96A96F url(images/img03.gif) no-repeat right bottom;
+	background: #8E6FA9 url(images/img03.gif) no-repeat right bottom;
 	padding: 10px 20px 0px 20px;
 	color: #DBD1E6;
 }
@@ -333,19 +333,19 @@ hr { display: none; }
 }
 
 #sidebar1 li {
-	background: #96A96F;
+	background: #8E6FA9;
 }
 
 #sidebar1 li ul {
 	line-height: 25px;
 	padding: 0px 20px 30px 20px;
-	background: #96A96F url(images/img03.gif) no-repeat right bottom;
+	background: #8E6FA9 url(images/img03.gif) no-repeat right bottom;
 	margin-bottom: 40px;
 }
 
 #sidebar1 li li {
 	padding: 0;
-	background: #96A96F;
+	background: #8E6FA9;
 	color: #DFE6D1;
 }
 
