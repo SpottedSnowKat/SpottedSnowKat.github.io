@@ -123,7 +123,7 @@ void draw()
   text("Rotational", 195, 440);
   text("Velocity", 195, 460);
   
-  time = time + 0.025;
+  time = time + 0.01;
   if (time>5.01) {
     noLoop(); 
   }
