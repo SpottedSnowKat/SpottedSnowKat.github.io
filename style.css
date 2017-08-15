@@ -324,7 +324,7 @@ hr { display: none; }
 #sidebar1 {
 	float: right;
 	width: 250px;
-	padding: 20px 0px 0px 0px;
+	padding: 40px 0px 0px 0px;
 }
 
 #sidebar1 ul {
@@ -339,7 +339,7 @@ hr { display: none; }
 
 #sidebar1 li ul {
 	line-height: 25px;
-	padding: 30px 20px 30px 20px;
+	padding: 20px 20px 20px 20px;
 	background: #8E6FA9 url(images/img03.gif) no-repeat right bottom;
 	margin-bottom: 20px;
 }
