@@ -7,6 +7,8 @@ float l2 = 0.12;
 float c = 1;
 float t = -0.5;
 int i = 1;
+boolean ended = false;
+boolean clear = false;
 
 float length1() {
   float gamma;
@@ -36,6 +38,11 @@ void setup()
 
 void draw()
 {
+  if (clear) {
+    background(255);
+    clear = false;
+  }
+  
   background(0,100,0);
   fill(255,0,0);
   float len1 = length1();
@@ -84,6 +91,7 @@ void draw()
       i = i + 1;
     }
     else {
+      ended = true;
       noLoop(); 
     }
   }
@@ -92,3 +100,14 @@ void draw()
   }
     
 }  
+
+void mousePressed() {
+  if (ended) {
+    t = -0.5;
+    i=1;
+    clear = true;
+    ended = false;
+    setup();
+    loop();
+  }
+}

@@ -1,6 +1,8 @@
 int a = 20;
 int r = 10;
 float time = -5;
+boolean ended = false;
+boolean clear = false;
 
 float speed(float t) {
   float frac;
@@ -49,7 +51,13 @@ void setup()
 }
 
 void draw()
-{ noStroke();
+{ 
+  if (clear) {
+    background(255);
+    clear = false;
+  }
+  
+  noStroke();
   fill(0,100,0);
   rect(0,0,200,600);
   rect(0,0,800,350);
@@ -125,7 +133,18 @@ void draw()
   
   time = time + 0.01;
   if (time>5.01) {
+    ended = true;
     noLoop(); 
   }
   
+}
+
+void mousePressed() {
+  if (ended) {
+    time = -5;
+    clear = true;
+    ended = false;
+    setup();
+    loop();
+  }
 }
